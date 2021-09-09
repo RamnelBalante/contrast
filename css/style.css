@@ -2,3 +2,83 @@ article {
 	width: 960px;
 	margin: 0 auto;
 }
+header {
+	text-align: center;
+	padding: 100px 0;
+	background-color: black;
+	color: white;
+	margin-bottom: 50px;
+}
+/*
+A very simple, and essential way of displaying contrast on a webpage is utilizing colors to make a section stand out from the rest. Since the header represents the title and main theme of the webpage, I decided to design it in a way to be the most eye-catching to the viewer before they read the rest of the content. I did this by adding a black background with white text so that it contrasts with the entire webpage's white/black aesthetic.
+*/
+header h1 {
+	font-size: 36px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+header p {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+h2 {
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 15px 0;
+}
+h3 {
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: bold;
+	margin: 15px 0;
+}
+p {
+	font-size: 15px;
+	margin: 15px 0;
+	padding: 0 25px;
+	padding-right: 40px;
+}
+/*To create contrast in a web page, one of the most imporant factors of this is the spacing between content. I added a fair and constant amount of space between each paragraph while giving more expanded space towards the headings in order to allow the client to navigate the page much more easily. I basically made contrast a tool to help the client make sense of where to read next. I also gave each heading more space based on what kind of heading it is. Why I did this is simply because headings have always had priority based on how big they are and adding less space for the smaller headings gives the client a clearer understanding of when each section ends and begins.
+*/
+article p:first-of-type {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 25px;
+	text-align: center;
+	border-bottom: 1px black solid;
+	width: 750px;
+}
+ul {
+	font-size: 15px;
+	margin: 15px 0;
+	padding: 0 25px;
+	padding-left: 40px;
+}
+figure {
+	margin: 40px 0;
+}
+figure img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+article figure figcaption {
+	font-size: 13px;
+	text-align: center;
+}
+article figure:first-of-type figcaption {
+	font-size: 18px;
+}
+article figure:last-of-type figcaption {
+	display: block;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+}
+figcaption {
+	font-size: 27px;
+	font-family: sans-serif;
+	font-weight: bold;
+}
